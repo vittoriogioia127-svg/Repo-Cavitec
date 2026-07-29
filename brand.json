@@ -1,0 +1,161 @@
+{
+  "marque": "Cavitec",
+  "version": "2.0",
+  "maj": "2026-07-29",
+  "societe": {
+    "raison_sociale": "Cavitec SAS",
+    "adresse": "7 route de Coqueréaumont",
+    "code_postal": "76116",
+    "ville": "Martainville-Epreville",
+    "telephone": "02 35 61 29 29",
+    "siren": "803 510 098",
+    "rcs": "Rouen",
+    "ape": "4313Z",
+    "site": "cavitec.fr"
+  },
+  "couleurs": {
+    "brun": "3E2C1E",
+    "terre": "B85C38",
+    "terre_sur_brun": "D98B63",
+    "sable": "D8CFC0",
+    "creme": "F5F1EA",
+    "ardoise": "2C2C2A",
+    "texte": "2B2B2B",
+    "gris": "5A5248",
+    "jaune_logo": "FDE128"
+  },
+  "typographie": {
+    "famille": "Inter",
+    "graisses_autorisees": [
+      "Regular",
+      "Medium"
+    ],
+    "source": "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip",
+    "install_linux": "/usr/share/fonts/truetype/inter/"
+  },
+  "logos": {
+    "base_url": "https://raw.githubusercontent.com/vittoriogioia127-svg/Repo-Cavitec/main/logos",
+    "arborescence": {
+      "ai": "logos/ai  (fichiers maitres Illustrator, ne jamais inserer directement dans un document)",
+      "svg": "logos/svg  (format de livraison vectoriel : web, grand format, impression)",
+      "png": "logos/png  (format de livraison raster : documents Word et PDF)"
+    },
+    "format_a_utiliser_par_usage": {
+      "document_word_pdf": "png",
+      "web": "svg",
+      "grand_format_signaletique_vehicule": "svg",
+      "archive_source_modification": "ai"
+    },
+    "fichiers": {
+      "couleur": {
+        "ai": "ai/Logo Cavitec Marron.ai",
+        "svg": "svg/logo-cavitec-couleur.svg",
+        "png": "png/logo-cavitec-couleur.png",
+        "wordmark": "brun 3E2C1E",
+        "ampoule": "jaune",
+        "luminance": 0.2,
+        "fonds_autorises": [
+          "blanc",
+          "creme F5F1EA",
+          "sable D8CFC0",
+          "tout fond clair"
+        ],
+        "fonds_interdits": [
+          "brun 3E2C1E",
+          "ardoise",
+          "tout fond sombre"
+        ],
+        "usage": "usage par defaut sur fond clair"
+      },
+      "blanc": {
+        "ai": "ai/Logo Cavitec Blanc.ai",
+        "svg": "svg/logo-cavitec-blanc.svg",
+        "png": "png/logo-cavitec-creme.png",
+        "alias_png_historique": "logo-cavitec-creme.png",
+        "wordmark": "blanc E0E0E0",
+        "ampoule": "jaune",
+        "luminance": 0.88,
+        "fonds_autorises": [
+          "brun 3E2C1E",
+          "ardoise 2C2C2A",
+          "tout fond sombre"
+        ],
+        "fonds_interdits": [
+          "blanc",
+          "creme",
+          "sable",
+          "tout fond clair"
+        ],
+        "usage": "bandeau d en tete, verso carte de visite, pied de page sombre"
+      },
+      "mono_brun": {
+        "ai": "ai/Logo Cavitec Mono Brun.ai",
+        "svg": "svg/logo-cavitec-mono-brun.svg",
+        "png": "png/logo-cavitec-mono-brun.png",
+        "wordmark": "brun 3E2C1E",
+        "ampoule": "aucune",
+        "luminance": 0.2,
+        "fonds_autorises": [
+          "blanc",
+          "creme F5F1EA",
+          "sable D8CFC0"
+        ],
+        "fonds_interdits": [
+          "brun",
+          "tout fond sombre"
+        ],
+        "usage": "header courant de document, tampon, support technique mono"
+      }
+    },
+    "regle_absolue": "La luminance du logo et celle du fond doivent etre opposees. Logo clair sur fond sombre, logo sombre sur fond clair. Ecart de luminance minimum 0.35. Verifier avant chaque insertion.",
+    "ratio": 2.642,
+    "resolution_png": "2842x1076 px, RGBA, transparence reelle",
+    "resolution_ai_convertible": "5685x2152 px a 600 dpi",
+    "taille_min_digital_px": 24,
+    "taille_min_imprime_mm": 8,
+    "note_nommage": "Le PNG historique se nomme creme alors que le logo est blanc. Renommer en blanc des que possible pour eviter toute confusion de variante."
+  },
+  "gabarits": {
+    "bandeau_entete_document": {
+      "description": "Bandeau superieur fond brun, wordmark creme a gauche, etiquette typologie a droite",
+      "fond": "3E2C1E",
+      "logo": "creme",
+      "logo_largeur_px": 216,
+      "logo_hauteur_px": 82,
+      "marges_dxa": {
+        "haut": 280,
+        "bas": 280,
+        "gauche": 340,
+        "droite": 340
+      },
+      "etiquette": {
+        "couleur": "D98B63",
+        "casse": "capitales",
+        "letter_spacing": "large",
+        "taille_demi_points": 17
+      }
+    },
+    "header_courant": {
+      "logo": "mono_brun",
+      "logo_largeur_px": 74,
+      "logo_hauteur_px": 28,
+      "bordure_bas": "D8CFC0"
+    },
+    "page": {
+      "marges_dxa": {
+        "haut": 1100,
+        "bas": 1100,
+        "gauche": 1250,
+        "droite": 1250
+      },
+      "largeur_utile_dxa": 9360
+    }
+  },
+  "regles_redaction": {
+    "tirets_longs_interdits": true,
+    "tirets_moyens_interdits": true,
+    "mention_alise_interdite": true,
+    "jaune_hors_logo_interdit": true,
+    "casse": "sentence case"
+  }
+}
